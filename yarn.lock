@@ -1595,9 +1595,9 @@ ecc-jsbn@~0.1.1:
   dependencies:
     jsbn "~0.1.0"
 
-ecdsa-sig-formatter@1.0.10:
-  version "1.0.10"
-  resolved "https://registry.npmjs.org/ecdsa-sig-formatter/-/ecdsa-sig-formatter-1.0.10.tgz"
+ecdsa-sig-formatter@1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/ecdsa-sig-formatter/-/ecdsa-sig-formatter-1.0.11.tgz#ae0f0fa2d85045ef14a817daa3ce9acd0489e5bf"
   dependencies:
     safe-buffer "^5.0.1"
 
@@ -2901,19 +2901,14 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
-jsonwebtoken@^8.2.0:
-  version "8.3.0"
-  resolved "https://registry.npmjs.org/jsonwebtoken/-/jsonwebtoken-8.3.0.tgz"
+jsonwebtoken@^9.0.0:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/jsonwebtoken/-/jsonwebtoken-9.0.1.tgz#81d8c901c112c24e497a55daf6b2be1225b40145"
   dependencies:
-    jws "^3.1.5"
-    lodash.includes "^4.3.0"
-    lodash.isboolean "^3.0.3"
-    lodash.isinteger "^4.0.4"
-    lodash.isnumber "^3.0.3"
-    lodash.isplainobject "^4.0.6"
-    lodash.isstring "^4.0.1"
-    lodash.once "^4.0.0"
+    jws "^3.2.2"
+    lodash "^4.17.21"
     ms "^2.1.1"
+    semver "^7.3.8"
 
 jsprim@^1.2.2:
   version "1.4.1"
@@ -2947,19 +2942,19 @@ just-extend@^4.0.2:
   version "4.0.2"
   resolved "https://registry.npmjs.org/just-extend/-/just-extend-4.0.2.tgz"
 
-jwa@^1.1.5:
-  version "1.1.6"
-  resolved "https://registry.npmjs.org/jwa/-/jwa-1.1.6.tgz"
+jwa@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/jwa/-/jwa-1.4.1.tgz#743c32985cb9e98655530d53641b66c8645b039a"
   dependencies:
     buffer-equal-constant-time "1.0.1"
-    ecdsa-sig-formatter "1.0.10"
+    ecdsa-sig-formatter "1.0.11"
     safe-buffer "^5.0.1"
 
-jws@^3.1.5:
-  version "3.1.5"
-  resolved "https://registry.npmjs.org/jws/-/jws-3.1.5.tgz"
+jws@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/jws/-/jws-3.2.2.tgz#001099f3639468c9414000e99995fa52fb478304"
   dependencies:
-    jwa "^1.1.5"
+    jwa "^1.4.1"
     safe-buffer "^5.0.1"
 
 jwt-simple@0.5.6:
@@ -3095,30 +3090,6 @@ lodash.foreach@^4.3.0:
   version "4.5.0"
   resolved "https://registry.npmjs.org/lodash.foreach/-/lodash.foreach-4.5.0.tgz"
 
-lodash.includes@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.npmjs.org/lodash.includes/-/lodash.includes-4.3.0.tgz"
-
-lodash.isboolean@^3.0.3:
-  version "3.0.3"
-  resolved "https://registry.npmjs.org/lodash.isboolean/-/lodash.isboolean-3.0.3.tgz"
-
-lodash.isinteger@^4.0.4:
-  version "4.0.4"
-  resolved "https://registry.npmjs.org/lodash.isinteger/-/lodash.isinteger-4.0.4.tgz"
-
-lodash.isnumber@^3.0.3:
-  version "3.0.3"
-  resolved "https://registry.npmjs.org/lodash.isnumber/-/lodash.isnumber-3.0.3.tgz"
-
-lodash.isplainobject@^4.0.6:
-  version "4.0.6"
-  resolved "https://registry.npmjs.org/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz"
-
-lodash.isstring@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.npmjs.org/lodash.isstring/-/lodash.isstring-4.0.1.tgz"
-
 lodash.map@^4.4.0:
   version "4.6.0"
   resolved "https://registry.npmjs.org/lodash.map/-/lodash.map-4.6.0.tgz"
@@ -3126,10 +3097,6 @@ lodash.map@^4.4.0:
 lodash.merge@^4.4.0, lodash.merge@^4.6.2:
   version "4.6.2"
   resolved "https://registry.npmjs.org/lodash.merge/-/lodash.merge-4.6.2.tgz"
-
-lodash.once@^4.0.0:
-  version "4.1.1"
-  resolved "https://registry.npmjs.org/lodash.once/-/lodash.once-4.1.1.tgz"
 
 lodash.pick@^4.2.1:
   version "4.4.0"
@@ -3155,7 +3122,7 @@ lodash.unescape@^4.0.1:
   version "4.0.1"
   resolved "https://registry.npmjs.org/lodash.unescape/-/lodash.unescape-4.0.1.tgz"
 
-lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.20, lodash@^4.17.4:
+lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.4:
   version "4.17.21"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
 
@@ -3901,11 +3868,11 @@ passport-http-bearer@^1.0.1:
   dependencies:
     passport-strategy "1.x.x"
 
-passport-jwt@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npmjs.org/passport-jwt/-/passport-jwt-4.0.0.tgz"
+passport-jwt@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/passport-jwt/-/passport-jwt-4.0.1.tgz#c443795eff322c38d173faa0a3c481479646ec3d"
   dependencies:
-    jsonwebtoken "^8.2.0"
+    jsonwebtoken "^9.0.0"
     passport-strategy "^1.0.0"
 
 passport-strategy@1.x.x, passport-strategy@^1.0.0:
@@ -4662,6 +4629,12 @@ semver@6.3.0, semver@^6.0.0, semver@^6.2.0, semver@^6.3.0:
 semver@^7.2, semver@^7.2.1, semver@^7.3.2, semver@~7.3.2:
   version "7.3.5"
   resolved "https://registry.npmjs.org/semver/-/semver-7.3.5.tgz"
+  dependencies:
+    lru-cache "^6.0.0"
+
+semver@^7.3.8:
+  version "7.5.4"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.4.tgz#483986ec4ed38e1c6c48c34894a9182dbff68a6e"
   dependencies:
     lru-cache "^6.0.0"
 
